@@ -29,9 +29,9 @@ int main() {
     
     for (int i = 0; i < 15; i++) {
         if (isAllowedRequest(ipAddress)) {
-            std::cout << "O cereri de la " << ipAddress << " permis." << std::endl;
+            std::cout << "Cerere de la " << ipAddress << " permis." << std::endl;
         } else {
-            std::cout << "O cereri de la " << ipAddress << " blocat din cauza limitării ratei." << std::endl;
+            std::cout << "Cerere de la " << ipAddress << " blocat din cauza limitării ratei." << std::endl;
         }
     }
 
